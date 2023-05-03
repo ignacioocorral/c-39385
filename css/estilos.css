@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../assets/imagenescoder/fondo3.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+header{
+    background-color: rgb(65, 65, 158);
+    width: 100%;
+    height: auto;
+}
+header img{
+    width: 25px;
+    height: 47px;
+    float: left;
+    margin: 5px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: auto;
+    margin: 10px;
+}
+.navbar li{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1{
+    text-decoration: none;
+    text-align: start;
+    color: white;
+    padding: auto;
+    margin: 80px;
+}
+.h11{
+    text-shadow: 2px 2px red;
+}
+.imgstaff{
+    color: rgb(237, 232, 232);
+    text-decoration: none;
+}
+.imgstaff{
+    background-position: center;
+    text-align: center;
+}
+.imgstaff div{
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.img-container{
+    height: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.medio{
+    text-align: center;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.medio article div{
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.media{
+    margin: 50px 10px 50px 10px;
+    width: 50%;
+}
+.jugadores{
+    text-align: center;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.jugadores{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+}
+.dt{
+    text-align: center;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.dt{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+}
+.card{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+.pie-izquierdo{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: auto;
+    margin: 10px;
+}
+.pie-medio{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: auto;
+}
+.pie-pagina{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: auto;
+    margin: 10px;
+}
+footer{
+    background-color: rgba(98, 98, 163, 0.432);
+    width: 100%;
+    height: 170px;
+}
+@media(max-width: 769px) {
+    .dt{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: space-around;
+    }
+}
+@media(max-width:426px){
+    .navbar{
+        display: inline-block;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .img-container{
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto;
+        justify-content: space-around;
+        padding: 10px 30px 10px 30px;
+    }
+    .jugadores{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: space-around;
+        padding:10px 20px 10px 20px ;
+    }
+    .dt{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-around;
+    }
+}
+@media(max-width:322px){
+    .jugadores{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-around;
+        padding:10px 20px 10px 20px ;
+    }
+}
