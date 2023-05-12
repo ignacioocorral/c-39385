@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(65, 65, 158);
+    width: 100%;
+    height: auto;
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            list-style: none;
+                div{
+                    img{
+                        width: 25px;
+                        height: 47px;
+                        float: left;
+                        margin: 5px;
+                    }
+                }
+                ul{
+                    li{
+                        display: flex;
+                        flex-direction: row;
+                        margin: 5px;
+                        justify-content: space-between;
+                        align-items: center;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            padding: auto;
+                            margin: 10px;
+                        }
+                    }
+                }
+        }
+}
