@@ -37,3 +37,13 @@ header{
                 }
         }
 }
+h1{
+    text-decoration: none;
+    text-align: start;
+    color: white;
+    padding: auto;
+    margin: 80px;
+    p{
+        text-shadow: 2px 2px red;
+    }
+}
