@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../assets/imagenescoder/fondo3.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+header{
+    background-color: rgb(65, 65, 158);
+        nav{
+            display: flex;
+            justify-content: space-between;
+                div{
+                    img{
+                        width: 45px;
+                    }
+                }
+                ul{
+                    display: flex;
+                        list-style: none;
+                        align-items: center;
+                        gap: 10px;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+        }
+}
+main{
+    .h11{
+        text-decoration: none;
+        text-align: start;
+        color: white;
+        padding: auto;
+        margin: 80px;
+        text-shadow: 2px 2px red;
+    }
+}
+footer{
+    .pie{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(65, 65, 158, 0.242)
+    }
+}
+.pie-izquierdo{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: auto;
+    margin: 10px;
+}
+.pie-medio{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: auto;
+}
+.pie-pagina{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: auto;
+    margin: 10px;
+}

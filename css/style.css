@@ -1,152 +1,77 @@
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-image:url(../assets/imagenescoder/fondo3.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-}
-.imgstaff{
-    color: rgb(237, 232, 232);
-    text-decoration: none;
-}
-.imgstaff{
-    background-position: center;
-    text-align: center;
-}
-.imgstaff div{
-    padding: 20px;
-    margin: 15px;
-    text-align: center;
-    text-decoration: none;
-}
-.img-container{
-    height: auto;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    padding-right: 50px;
-    text-align: center;
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.medio{
-    text-align: center;
-    list-style: none;
-    color: white;
-    text-decoration: none;
+body {
+  background-image: url(../assets/imagenescoder/fondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
 }
-.medio article div{
-    padding: 20px;
-    margin: 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
+
+header {
+  background-color: rgb(65, 65, 158);
 }
-.media{
-    margin: 50px 10px 50px 10px;
-    width: 50%;
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
-.jugadores{
-    text-align: center;
-    list-style: none;
-    color: white;
-    text-decoration: none;
+header nav div img {
+  width: 45px;
 }
-.jugadores{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    justify-content: space-around;
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
 }
-.dt{
-    text-align: center;
-    list-style: none;
-    color: white;
-    text-decoration: none;
+header nav ul li a {
+  text-decoration: none;
+  color: white;
 }
-.dt{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    justify-content: space-around;
+header nav ul li a:hover {
+  color: black;
 }
-.card{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+
+main .h11 {
+  text-decoration: none;
+  text-align: start;
+  color: white;
+  padding: auto;
+  margin: 80px;
+  text-shadow: 2px 2px red;
 }
-.pie{
-    display: flex;
-    flex-direction: row;
-    height: 170px;
-    justify-content: space-between;
-    align-items: center;
+
+footer .pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(65, 65, 158, 0.242);
 }
-.pie-izquierdo{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    padding: auto;
-    margin: 10px;
+
+.pie-izquierdo {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: auto;
+  margin: 10px;
 }
-.pie-medio{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    padding: auto;
+
+.pie-medio {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: auto;
 }
-.pie-pagina{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    padding: auto;
-    margin: 10px;
+
+.pie-pagina {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: auto;
+  margin: 10px;
 }
-footer{
-    background-color: rgba(98, 98, 163, 0.432);
-    width: 100%;
-    height: 170px;
-}
-@media(max-width: 769px) {
-    .dt{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
-        justify-content: space-around;
-    }
-}
-@media(max-width:426px){
-    .navbar{
-        display: inline-block;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .img-container{
-        grid-template-columns: auto ;
-        grid-template-rows: auto auto auto;
-        justify-content: space-around;
-        padding: 10px 30px 10px 30px;
-    }
-    .jugadores{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
-        justify-content: space-around;
-        padding:10px 20px 10px 20px ;
-    }
-    .dt{
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
-        justify-content: space-around;
-    }
-}
-@media(max-width:322px){
-    .jugadores{
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
-        justify-content: space-around;
-        padding:10px 20px 10px 20px ;
-    }
-}
+
+/*# sourceMappingURL=style.css.map */
