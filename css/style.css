@@ -37,11 +37,9 @@ header nav ul li a:hover {
 
 main .h11 {
   text-decoration: none;
-  text-align: start;
   color: white;
-  padding: auto;
   margin: 80px;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px rgb(255, 0, 0);
 }
 
 footer .pie {

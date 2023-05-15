@@ -1,0 +1,28 @@
+footer{
+    .pie{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(65, 65, 158, 0.242)
+    }
+}
+.pie-izquierdo{
+    list-style: none;
+    text-decoration: none;
+    color: $color-link-pie-pagina;
+    padding: auto;
+    margin: 10px;
+}
+.pie-medio{
+    list-style: none;
+    text-decoration: none;
+    color: $color-link-pie-pagina;
+    padding: auto;
+}
+.pie-pagina{
+    list-style: none;
+    text-decoration: none;
+    color: $color-link-pie-pagina;
+    padding: auto;
+    margin: 10px;
+}

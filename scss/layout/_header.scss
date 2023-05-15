@@ -1,0 +1,27 @@
+header{
+    background-color:$backgroundd-header;
+        nav{
+            display: flex;
+            justify-content: space-between;
+                div{
+                    img{
+                        width: 45px;
+                    }
+                }
+                ul{
+                    display: flex;
+                        list-style: none;
+                        align-items: center;
+                        gap: 10px;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+        }
+}
