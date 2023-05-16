@@ -1,0 +1,12 @@
+main{
+    article{
+	    text-decoration: none;
+	    text-align: start;
+	    color:black;
+	    padding: auto;
+	    margin: 80px;
+        .h11 {
+            text-shadow: 2px 2px $h1-color;
+        }
+    }
+}
