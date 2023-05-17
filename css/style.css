@@ -1,17 +1,201 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 3 | @import"./layout/body/";
- *   |        ^^^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 3:8  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @import\"./layout/body/\";\d\a   \2502         ^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 3:8  root stylesheet";
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-image: url(../assets/imagenescoder/fondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+.img-container {
+  height: auto;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+}
+
+.card {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+header {
+  background-color: rgb(65, 65, 158);
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav div img {
+  width: 45px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a:hover {
+  color: black;
+}
+
+footer .pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(65, 65, 158, 0.242);
+}
+
+.pie-izquierdo {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: auto;
+  margin: 10px;
+}
+
+.pie-medio {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: auto;
+}
+
+.pie-pagina {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: auto;
+  margin: 10px;
+}
+
+main article {
+  text-decoration: none;
+  color: white;
+  padding: auto;
+  margin: 80px;
+}
+main article .h11 {
+  text-shadow: 2px 2px rgb(255, 0, 0);
+}
+
+.imgstaff {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.imgstaff div {
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+}
+
+.img-container {
+  height: auto;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.medio {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.medio div {
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+}
+
+.media {
+  margin: 50px 10px 50px 10px;
+  width: 67%;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-around;
+}
+main section .jugadores {
+  text-align: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-around;
+  margin: 10px;
+}
+main section .dt {
+  text-align: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .dt {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 426px) {
+  .navbar {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .img-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-around;
+    padding: 10px 30px 10px 30px;
+  }
+  .jugadores {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+  }
+  .dt {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 322px) {
+  .jugadores {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

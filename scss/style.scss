@@ -1,12 +1,15 @@
 @import"./utilities/variables";
 @import"./base/reset";
-@import"./layout/body/";
+@import"./layout/body/body";
 @import"./components/boostrap";
 @import"./layout/header";
-@import"./layout/footer";
 @import"./layout/main-general";
 @import"./layout/main-index";
 @import"./layout/main-clubes";
 @import"./layout/main-nosotros";
 @import"./layout/main-jugadores";
 @import"./layout/main-dt";
+@import"./layout/footer";
+@import"./layout/mediaquiery/media-769";
+@import"./layout/mediaquiery/media-426";
+@import"./layout/mediaquiery/media-322";

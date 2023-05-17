@@ -1,4 +1,4 @@
-.imgstaff {
+.imgstaff{
 	color: $color_1;
 	text-decoration: none;
 	text-align: center;
@@ -7,5 +7,14 @@
 		margin: 15px;
 		text-align: center;
 		text-decoration: none;
+        font-size: large;
 	}
+}
+.img-container{
+    height: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    text-align: center;
 }

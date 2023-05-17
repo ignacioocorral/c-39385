@@ -1,17 +1,16 @@
 .medio {
-	text-align: center;
-	list-style: none;
-	article {
+	    text-align: center;
+		color: $color_1;
+		text-decoration: none;
 		div {
 			padding: 20px;
 			margin: 15px;
+			text-align: center;
 			text-decoration: none;
-			font-size: 20px;
-            color:$color_1 ;
+			font-size: large;
 		}
 	}
-}
 .media {
 	margin: 50px 10px 50px 10px;
-	width: 50%;
+	width: 67%;
 }
