@@ -1,0 +1,5 @@
+@media(max-width: 1000px){
+    .dt{
+        @include grid(auto auto,auto auto auto,space-around,center,none)
+    }
+}

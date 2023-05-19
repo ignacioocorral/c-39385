@@ -1,5 +1,5 @@
 @media(max-width: 769px){
-        .dt{
-            @include grid(auto auto,auto auto auto,space-around,center,none)
-        }
+    .dt{
+        @include grid(auto,auto auto auto auto,space-around,center,none)
+    }
 }

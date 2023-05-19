@@ -159,7 +159,7 @@ footer .pie {
   margin: 10px;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1000px) {
   .dt {
     display: grid;
     grid-template-columns: auto auto;
@@ -167,6 +167,32 @@ footer .pie {
     justify-content: space-around;
     align-items: center;
     grid-template-areas: none;
+  }
+}
+@media (max-width: 900px) {
+  .jugadores {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
+  }
+}
+@media (max-width: 769px) {
+  .dt {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-areas: none;
+  }
+}
+@media (max-width: 600px) {
+  .jugadores {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    padding: 10px 20px 10px 20px;
   }
 }
 @media (max-width: 426px) {
@@ -180,25 +206,6 @@ footer .pie {
     grid-template-rows: auto auto auto;
     justify-content: space-around;
     padding: 10px 30px 10px 30px;
-  }
-  .jugadores {
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    justify-content: space-around;
-    padding: 10px 20px 10px 20px;
-  }
-  .dt {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 322px) {
-  .jugadores {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    justify-content: space-around;
-    padding: 10px 20px 10px 20px;
   }
 }
 
